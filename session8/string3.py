@@ -7,8 +7,23 @@ while True:
     print("Shuffle : ", *split, sep='  ')
     word2 = input("Your answer : ")
     emerge = ''.join(split)
-    if word2 == emerge:
+    if word2 == word:
         print("Correct")
+        print("-"*20)
+    else:
+        print("Error")
+        print("-"*20)
+    conti = input("Next round ?(y/n): ").upper()
+    if conti == "N":
+        print("Thanks for playing")
         break
-    elif word2 != emerge:
+    elif conti == "Y":
+        print("Loading...")
+    else:
         print("Try again")
+    
+
+
+
+
+
