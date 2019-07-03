@@ -1,5 +1,5 @@
+import random
 while True:
-    import random
     things = ['money1', 'money2', 'money3', 'money4', 'money5']
     word = random.choice(things)
     split = list(word)
