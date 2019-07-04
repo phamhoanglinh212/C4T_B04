@@ -1,26 +1,6 @@
 n = int(input("Enter your number : "))
-if 0<n<9:
-    for i in range(0, 9): 
-        if n % 2 != 0: 
-            print("This month has 31 days")
-            break
-        elif n == 2:
-            print("This month has 28 days")
-            break
-        elif n == 8:
-            print("This month has 31 days")
-            break
-        else:
-            print("This month has 30 days")
-            break
-elif 8<n<13:
-    for i in range(8, 13): 
-        if n % 2 != 0: 
-            print("This month has 30 days")
-            break
-        else:
-            print("This month has 31 days")
-            break
+if n in [1,3,5,7,8,10,12]:
+    print("This month has 31 days")
+elif n in [2,4,6,9,11]:
+    print("This month has 30 days")
 
-
-        
