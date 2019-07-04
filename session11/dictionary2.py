@@ -34,9 +34,12 @@ ten = dict_list[0].keys()
 soluong= dict_list[0].values()
 gia = dict_list[1].values()
 # sum = 0
+tong = 0
 for y,u,e in zip(ten,soluong, gia):
-    tong = u*e
-    print(y,tong)
+    u*e
+    print(y,u*e)
+    tong += u*e
+    print(tong)
 
 # for tong in range(6):
 #     sum = sum + tong
