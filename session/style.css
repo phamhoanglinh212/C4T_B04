@@ -1,0 +1,47 @@
+/* h5 {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+}
+span {
+    color: black;
+    font-weight: bold;
+    font-size: 15;
+    font-family: 'Anton', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+.another{
+    color: black;
+    font-size: 15;
+    font-family: 'Karla', sans-serif;
+} */
+/* #background-ig{
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url("forest.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+} */
+#background{
+    height: 1000px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2019/06/23/01/56/cityscape-4292702_960_720.jpg");
+    /* background-size: contain; */
+    background-attachment: fixed;
+}
+.background{
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+}
